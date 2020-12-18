@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Портфолио</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="robots" content="index, follow">
+
+    <meta name="keywords" content="PHP, портфолио, PHP-разработка">
+
+    <meta name="description" content="Портфолио PHP-разработчика">
+
+    <link rel="shortcut icon" type="image/phg" href="images/portfolio.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<header class="header">
+    <div class="header__logo">
+        <a href="#">
+            <img class="header__image" alt="Портфолио" src="portfolio.png">
+        </a>
+    </div>
+    <div class="header__title">
+        <a href="#" class="header__link">
+            Портфолио Николенко Марии
+        </a>
+    </div>
+    <div class="header__links">
+        <a href="https://github.com/">
+            <img class="header__profile" title="Профиль в Github" alt="Профиль в Github" src="github.png">
+        </a>
+    </div>
+    <div class="header__links">
+        <a href="https://vk.com/">
+            <img class="header__profile" title="Профиль в ВКонтакте" alt="Профиль в ВКонтакте" src="vk.png">
+        </a>
+    </div>
+    <div class="header__links">
+        <a href="https://www.instagram.com">
+            <img class="header__profile" title="Профиль в Instagram" alt="Профиль в Instagram"
+                 src="instagram.png">
+        </a>
+    </div>
+
+</header>
+
+<main>
+    <div class="main">
+        <aside class="contacts">
+            <h1 class="contacts__title">
+                Контакты
+            </h1>
+
+            <p class="contacts__p">
+                mariya.v.n17@gmail.com
+            </p>
+            <p class="contacts__p">
+                +79787879787
+            </p>
+        </aside>
+
+        <article class="article">
+            <h1 class="article__title">
+                Обо мне
+            </h1>
+            <section class="article__section">
+                <h2 class="article__h2">
+                    Привет!
+                </h2>
+                <p class="article__p">
+                    Меня зовут Мария Николенко. И я занимаюсь веб-разработкой :)
+                </p>
+                <p class="article__p">
+                    <img class="article__image" src="photo.jpg" alt="Моя фотография" title="Моя фотография">
+                </p>
+            </section>
+            <section class="article__section">
+                <h2 class="article__h2">
+                    Образование
+                </h2>
+                <ul>
+                    <li class="article__item">2016-2020 - Информационные системы и технологии (бакалавр)</li>
+                    <li class="article__item">2020-2022 - Информационные системы и технологии (магистр)</li>
+                </ul>
+            </section>
+            <section class="article__section">
+                <h2 class="article__h2">
+                    Связаться со мной:
+                </h2>
+                <form class="article__form" id="feedback">
+                    <p class="article__field">
+                        <label for="name" class="article__label">Имя</label>
+                        <input type="text" id="name">
+                    </p>
+                    <p class="article__field">
+                        <label for="email">Электронный адрес</label>*
+                        <input type="email" id="email">
+                    </p>
+                    <p class="article__field">
+                        <label for="message">Сообщение</label>
+                        <textarea id="message"></textarea>
+                    </p>
+                    <button type="submit" class="article__button" id="sendButton">
+                        Отправить
+                    </button>
+                </form>
+            </section>
+        </article>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="footer_text">Севастополь, 2020</div>
+</footer>
+
+</body>
+</html>
